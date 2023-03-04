@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pass-input {
+        @apply flex-1 mb-2 lg:mb-3 p-3 rounded lg:rounded-lg border border-gray-400 bg-gray-200 lg:bg-white text-sm lg:text-base placeholder-gray-600 lg:placeholder-gray-500
+    }
+    .text-input {
+        @apply flex-1 mb-3 p-3 rounded lg:rounded-lg border border-gray-400 bg-gray-200 lg:bg-white text-sm lg:text-base placeholder-gray-600 lg:placeholder-gray-500
+    }
+    .button-primary {
+        @apply flex-1 mb-3 py-2 px-3 rounded-lg bg-main-blue hover:bg-main-blue-hover font-semibold text-white text-xl
+    }
+    .sign-in-button {
+        @apply py-3 px-4 bg-main-green hover:bg-main-green-hover text-white text-lg lg:text-lg font-bold rounded
+    }
+}
